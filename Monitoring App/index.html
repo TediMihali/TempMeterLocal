@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="info-container">
+    <div class="humidityValue">
+      <h2>Latest Humidity:</h2>
+      <p id="humidity">70</p>
+    </div>
+    <div class="temperatureValue">
+      <h2>Latest Temperature:</h2>
+         <p id="temperature">25°C</p>
+    </div>
+  </div>
+
+  <div class="list-container">
+    <h2>List of measurements</h2>
+    <table class="measurements-table">
+      <thead>
+        <th>Time: </th>
+        <th>Temperature: </th>
+        <th>Humidity: </th>
+      </thead>
+    </table>
+    <button id="loadMoreButton">Load more</button>
+  </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
